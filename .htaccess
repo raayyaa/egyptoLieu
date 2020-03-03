@@ -1,0 +1,4 @@
+RewriteEngine on
+
+#RewriteRule ^/controllerLieu/(.*)$ controllerLieu.php
+RewriteRule ^(.*)/(.*)/(.*)$ index.php?controller=$1&id=$2&action=$3
